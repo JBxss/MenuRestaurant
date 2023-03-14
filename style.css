@@ -1,0 +1,221 @@
+:root {
+  --color-dark: #151011;
+  --color-dark-prymary: #1f232b;
+  --color-dark-secondary: #2d343f;
+  --color-ligth: #ffffff;
+  --color-grey: #f5f6f8;
+  --color-primary: #b3925e;
+  --transition: all 400ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Serif", serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  background-color: var(--color-primary) !important;
+  color: var(--color-ligth) !important;
+  letter-spacing: 0.05rem;
+}
+
+.bg-light {
+  background-color: var(--color-ligth) !important;
+}
+
+.p-6 {
+  padding: 4rem 7rem !important;
+}
+
+.contact-box {
+  padding: 3rem;
+}
+
+.form-control {
+  border-radius: 0.2rem !important;
+  padding: 1.5rem 1rem !important;
+}
+
+#ContainerForm {
+  background-color: var(--color-dark) !important;
+}
+
+.btn {
+  font-weight: 400;
+  padding: 1rem 2rem !important;
+  border-radius: 5rem !important;
+  min-width: 10rem !important;
+}
+
+.btn-primary {
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-dark) !important;
+  color: var(--color-dark) !important;
+  font-weight: bold !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-dark) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--color-primary) !important;
+}
+
+.register-bg {
+  background-image: url("Assets/Siítulo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonial {
+  bottom: 10px;
+  background-color: #1510118f;
+}
+
+header {
+  height: 50vh;
+  margin: 0;
+  background-color: var(--color-primary);
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  background: var(--color-dark);
+  border-radius: 150px;
+}
+
+.item_container {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: var(--color-dark);
+  border-radius: 9rem;
+  overflow: hidden;
+  display: flex;
+}
+
+.item_container img {
+  width: 150px;
+  height: 150px;
+  padding: 1px;
+  border: 2px solid #b3925e;
+  margin: 10px;
+  margin-right: 2.5rem;
+}
+
+center h1 {
+  width: fit-content;
+  margin: 2rem;
+  padding: 1.5rem;
+  background-color: transparent !important;
+  border: 2px solid var(--color-primary) !important;
+  border-radius: 9rem;
+}
+
+.input-container .unit {
+  width: 30%;
+  margin-left: 15rem;
+  margin-bottom: 1rem;
+  background-color: transparent !important;
+  border-color: var(--color-primary);
+}
+
+.input-container .unit input:focus {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-ligth);
+}
+
+.input-container input {
+  margin-left: 15rem;
+}
+
+.item_container label {
+  color: var(--color-primary);
+}
+
+.btn-secundary {
+  background-color: var(--color-dark) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  font-weight: bold !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.btn-secundary:hover {
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-dark) !important;
+  color: var(--color-dark) !important;
+}
+
+.mod-container {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mod {
+  width: 40%;
+  height: 50%;
+  background: var(--color-dark);
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  transition: transform 1s;
+  transform: translateY(0%);
+  border-radius: 10px;
+}
+
+.mod-close {
+  transform: translateY(-200%);
+}
+
+.cerrar {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: red;
+  color: var(--color-ligth);
+  line-height: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: .5rem;
+}
+
+footer {
+  padding: 1rem;
+  color: var(--color-dark);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer h2 {
+  width: fit-content;
+  margin: 2rem;
+  padding: 1.5rem;
+  background-color: transparent;
+  border: 2px solid var(--color-dark);
+  border-radius: 9rem;
+}
