@@ -5,10 +5,13 @@ Este proyecto es una aplicación web simple desarrollada en PHP que muestra el m
 ## Capturas de Pantalla
 
 ![Página de Inicio](./Assets/screenshots/screenshot1.png)
+*Página de Inicio de Brasas Locas*
 
 ![Registro de Clientes](./Assets/screenshots/screenshot2.png)
+*Seccion de Registro de Brasas Locas*
 
 ![Menú de Platos](./Assets/screenshots/screenshot3.png)
+*Seccion de Menu de Brasas Locas*
 
 ## Funcionalidad
 
